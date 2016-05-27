@@ -30,11 +30,10 @@
             margin-top: 25px;
         }
   .container {
-      padding-left: 25px;
-      padding-right: 25px;
-        }
-        .bg-img {
-            background-image: url(bootstrap/image/head%20background.jpg);
+      background-color: darkorange;
+      height: auto;
+      padding-top: 50px;
+      padding-bottom: 50px;
         }
 .icon_footer{
     border-radius: 5px;
@@ -65,28 +64,35 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: #45a049;
 }
-        .form1{
-            float:left
+        .form1 {
+            float:left;
+            padding: 20px;
+            margin right: 50px;
         }
-        .form2{
-            float: right
+        .form2 {
+            float: right;
+            padding: 10px;
+        }
+        .action {
+            padding: 50px;
         }
     </style>
 </head>
     
 
-<body>
+<body style="margin:0;">
     <div class="container"> <!-- for buat wrap content -->
         <h1 style="color:orange">Welcome to YC Enterpreneur site</h1>
         <p>It's site to promote our business line which content either product selling also service provider as well which unique & rare.  </p> 
-    </div>
+    
 <!--menu button-->
-    <div class="btn-group middle bg-img">
-            <a href="#child_book" style="padding: 50px"><img src="bootstrap/image/childbook.jpg" class="img-circle" alt="Cinque Terre" width="100" height="100" data-description="Child's Book"></a>
-            <a href="#yummy_snack" style="padding: 50px"><img src="bootstrap/image/yummysnack.jpg" class="img-circle" alt="Cinque Terre" width="100" height="100"></a>
-            <a href="#island_exploration_trip" style="padding: 50px"><img src="bootstrap/image/explorer_man.jpg" class="img-circle" alt="Cinque Terre" width="100" height="100"></a>
-            <a href="#diving_course" style="padding: 50px"><img src="bootstrap/image/diving_course.jpg" class="img-circle" alt="Cinque Terre" width="100" height="100"></a>
-            <a href="#floral_course" style="padding: 50px"><img src="bootstrap/image/floral_course.jpg" class="img-circle" alt="Cinque Terre" width="100" height="100"></a>
+        <div class="btn-group middle bg-img">
+            <a href="#child_book" style="padding: 30px"><img src="bootstrap/image/childbook.jpg" class="img-circle" alt="Cinque Terre" width="100" height="100" data-description="Child's Book"></a>
+            <a href="#yummy_snack" style="padding: 30px"><img src="bootstrap/image/yummysnack.jpg" class="img-circle" alt="Cinque Terre" width="100" height="100"></a>
+            <a href="#island_exploration_trip" style="padding: 30px"><img src="bootstrap/image/explorer_man.jpg" class="img-circle" alt="Cinque Terre" width="100" height="100"></a>
+            <a href="#diving_course" style="padding: 30px"><img src="bootstrap/image/diving_course.jpg" class="img-circle" alt="Cinque Terre" width="100" height="100"></a>
+            <a href="#floral_course" style="padding: 30px"><img src="bootstrap/image/floral_course.jpg" class="img-circle" alt="Cinque Terre" width="100" height="100"></a>
+        </div>
     </div>
         <!-- menu bar, mau di-hide dulu 
         <button type="button" class="btn btn-primary btn-lg">Home</button>
@@ -326,13 +332,13 @@ input[type=submit]:hover {
     </dt>
   <form action="action_page.php">
       <div class="form1">
-    <label for="fname">Name</label>
+    <label for="fname">Name</label><br>
     <input type="text" id="fname" name="name">
       <br>
-    <label for="lname">Email</label>
+    <label for="lname">Email</label><br>
     <input type="text" id="lname" name="email">
       <br>
-    <label for="point of interest">Point of interest</label>
+    <label for="point of interest">Point of interest</label><br>
     <select id="interest" name="interest">
       <option value="child_book">Child Book</option>
       <option value="yummy_snack">Yummy Snack</option>
@@ -342,7 +348,7 @@ input[type=submit]:hover {
     </select>
       </div>
     <div class="form2">
-        <label for="message">Your Message<textarea style="padding:20%"></textarea></label>
+        <label for="message">Your Message<textarea style="padding:25%"></textarea></label>
     </div>
     <input type="submit" value="Submit">
   </form>
@@ -352,9 +358,9 @@ input[type=submit]:hover {
 
 <footer>
     <div class="icon_footer">
-      <a href="https://www.facebook.com/"><img alt="facebook page" src="bootstrap/image/icon1.jpg" style="width:50px; height:50px"></a>
-      <a href="https://www.instagram.com/"><img alt="instagram page" src="bootstrap/image/icon2.jpg" style="width:50px; height:50px"></a>
-      <a href="https://www.linkedin.com/uas/login"><img alt="linkedin page" src="bootstrap/image/icon3.jpg" style="width:50px; height:50px"></a>
+      <a href="https://www.facebook.com/"><img alt="facebook page" src="bootstrap/image/facebook%20icon.jpg" style="width:50px; height:50px"></a>
+      <a href="https://www.instagram.com/"><img alt="instagram page" src="bootstrap/image/instagram%20icon.jpg" style="width:50px; height:50px"></a>
+      <a href="https://www.linkedin.com/uas/login"><img alt="linkedin page" src="bootstrap/image/linkedin%20icon.png" style="width:50px; height:50px"></a>
     </div>
 </footer>
 </html>
