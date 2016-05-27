@@ -25,20 +25,67 @@
            margin-right: auto;
            display:table;
         }
+  .icon_footer {
+            float:right;
+            margin-top: 25px;
+        }
+  .container {
+      padding-left: 25px;
+      padding-right: 25px;
+        }
+        .bg-img {
+            background-image: url(bootstrap/image/head%20background.jpg);
+        }
+.icon_footer{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+        }
+input[type=text], select {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+        .form1{
+            float:left
+        }
+        .form2{
+            float: right
+        }
     </style>
 </head>
     
 
 <body>
     <div class="container"> <!-- for buat wrap content -->
-        <h1 style="color:orange">Welcome! Browse & enjoy our site</h1>
+        <h1 style="color:orange">Welcome to YC Enterpreneur site</h1>
+        <p>It's site to promote our business line which content either product selling also service provider as well which unique & rare.  </p> 
     </div>
 <!--menu button-->
-    <div class="btn-group middle">
+    <div class="btn-group middle bg-img">
             <a href="#child_book" style="padding: 50px"><img src="bootstrap/image/childbook.jpg" class="img-circle" alt="Cinque Terre" width="100" height="100" data-description="Child's Book"></a>
             <a href="#yummy_snack" style="padding: 50px"><img src="bootstrap/image/yummysnack.jpg" class="img-circle" alt="Cinque Terre" width="100" height="100"></a>
             <a href="#island_exploration_trip" style="padding: 50px"><img src="bootstrap/image/explorer_man.jpg" class="img-circle" alt="Cinque Terre" width="100" height="100"></a>
-            <a href="#live_in_trip" style="padding: 50px"><img src="bootstrap/image/live_in%20volunteering.gif" class="img-circle" alt="Cinque Terre" width="100" height="100"></a>
+            <a href="#diving_course" style="padding: 50px"><img src="bootstrap/image/diving_course.jpg" class="img-circle" alt="Cinque Terre" width="100" height="100"></a>
             <a href="#floral_course" style="padding: 50px"><img src="bootstrap/image/floral_course.jpg" class="img-circle" alt="Cinque Terre" width="100" height="100"></a>
     </div>
         <!-- menu bar, mau di-hide dulu 
@@ -70,7 +117,77 @@
 <a href="#live_in_trip"><img src="bootstrap/image/icon1.jpg" class="img-circle" alt="Cinque Terre" width="100" height="100"></a>
 <a href="#floral_course"><img src="bootstrap/image/icon2.jpg" class="img-circle" alt="Cinque Terre" width="100" height="100"></a> -->
 
-<!-- page Island Exploration Trip-->
+<!--page Childbook-->
+<div id="child_book">
+    <h3 style="color:blue"><strong>Child Book</strong></h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+        </ol>
+    <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="bootstrap/image/icon1.jpg" style="width:300px; height:150px">
+            </div>
+            <div class="item">
+                <img src="bootstrap/image/icon2.jpg" style="width:300px; height:150px">
+            </div>
+            <div class="item">
+                <img src="bootstrap/image/icon3.jpg" style="width:300px; height:150px">
+            </div>
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+        </div>
+    </div>
+</div>
+<!--page Yummy Snack-->
+<div id="yummy_snack">
+    <h3 style="color:blue"><strong>Yummy Snack</strong></h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+        </ol>
+    <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="bootstrap/image/icon1.jpg" style="width:300px; height:150px">
+            </div>
+            <div class="item">
+                <img src="bootstrap/image/icon2.jpg" style="width:300px; height:150px">
+            </div>
+            <div class="item">
+                <img src="bootstrap/image/icon3.jpg" style="width:300px; height:150px">
+            </div>
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+        </div>
+    </div>
+</div>
+    <!-- page Island Exploration Trip-->
 <div id="island_exploration_trip">
     <h3 style="color:blue"><strong>East Borneo</strong></h3>
         <p>East Kalimantan Province consists of 7 Regencies and 3 Cities, now there is one city and three regencies split into the own province is North Kalimantan Province, the province of North Kalimantan officially authorized by the meeting Plenary House of Representatives on October 25, 2012 under Law No. 20 of 2012, but will stand fully begin in 2015.</p>
@@ -118,6 +235,126 @@
         </div>
     </div>
 </div>
+<!--page Diving_Course-->
+<div id="diving_course" style="background-color:pink">
+    <h3 style="color:blue"><strong>Scuba Diving Course</strong></h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <br>
+        <p><strong>Depth:</strong> max. 18 m. (max. 12 m. for 10 and 11 year olds)
+        <br>
+        <strong>Duration:</strong> 3-4 days, 4 dives
+        <br>
+        <strong>Who can join:</strong> You must be in good health, be able to swim, 15 years or older for sign up scubadiving course.</p>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+        </ol>
+    <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="bootstrap/image/diving_course1.jpg" style="width:300px; height:150px">
+            </div>
+            <div class="item">
+                <img src="bootstrap/image/diving_course2.jpg" style="width:300px; height:150px">
+            </div>
+            <div class="item">
+                <img src="bootstrap/image/diving_course3.jpg" style="width:300px; height:150px">
+            </div>
+            <div class="item">
+                <img src="bootstrap/image/diving_course4.jpg" style="width:300px; height:150px">
+            </div>
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+        </div>
+    </div>
+</div>
+<!--page Floral_course-->
+<div id="floral_course">
+    <h3 style="color:blue"><strong>Floral Course</strong></h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+        </ol>
+    <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="bootstrap/image/icon1.jpg" style="width:300px; height:150px">
+            </div>
+            <div class="item">
+                <img src="bootstrap/image/icon2.jpg" style="width:300px; height:150px">
+            </div>
+            <div class="item">
+                <img src="bootstrap/image/icon3.jpg" style="width:300px; height:150px">
+            </div>
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+        </div>
+    </div>
+</div>
+<!--form contact-->
+<div form_contact>
+<h1 style="color:blue"><strong>Contact Information</strong></h1>
+    <h3 style="color:coral">YC Enterpreneur</h3>
+    <dt>DiLo Bogor<br>
+        Jl.Padjajaran No.39, Bogor<br>
+    </dt>
+    <dt>Telp: 081x xxx xxxx<br>
+        Email: <a href="www.google.co.id">info@ycenterpreneur.net</a>
+    </dt>
+  <form action="action_page.php">
+      <div class="form1">
+    <label for="fname">Name</label>
+    <input type="text" id="fname" name="name">
+      <br>
+    <label for="lname">Email</label>
+    <input type="text" id="lname" name="email">
+      <br>
+    <label for="point of interest">Point of interest</label>
+    <select id="interest" name="interest">
+      <option value="child_book">Child Book</option>
+      <option value="yummy_snack">Yummy Snack</option>
+      <option value="island_explorer_trip">Island Explorer Trip</option>
+      <option value="diving_course">Scuba Diving Course</option>
+      <option value="floral_course">Floral Course</option>
+    </select>
+      </div>
+    <div class="form2">
+        <label for="message">Your Message<textarea style="padding:20%"></textarea></label>
+    </div>
+    <input type="submit" value="Submit">
+  </form>
+</div>
     
-</body>    
+</body>
+
+<footer>
+    <div class="icon_footer">
+      <a href="https://www.facebook.com/"><img alt="facebook page" src="bootstrap/image/icon1.jpg" style="width:50px; height:50px"></a>
+      <a href="https://www.instagram.com/"><img alt="instagram page" src="bootstrap/image/icon2.jpg" style="width:50px; height:50px"></a>
+      <a href="https://www.linkedin.com/uas/login"><img alt="linkedin page" src="bootstrap/image/icon3.jpg" style="width:50px; height:50px"></a>
+    </div>
+</footer>
 </html>
